@@ -1,5 +1,5 @@
 context:
-  version: "0.5.2"
+  version: "0.5.6"
 
 package:
   name: htmd
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/letmutex/htmd-cli/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 29476e0907eec2e42c94ffa760a81387982ca8dcba75e13b8b5366f78410e1d0
+  sha256: d8496ada444311df017fd3ea36cb9e0041080005cd265e9ae245f02a2afd1ee0
 
 build:
-  number: 2
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_LTO: fat
